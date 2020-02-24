@@ -1,0 +1,3 @@
+Title: Ty's Jobs for CityRPG 4
+Author: Various Authors
+An expansion mod for CityRPG 4. Replaces the job tree with the jobs from Ty's CityRPG and increases the education levels.
