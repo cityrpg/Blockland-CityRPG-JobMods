@@ -2,7 +2,7 @@
 $City::EducationCap = 14;
 $City::EducationReincarnateLevel = 20;
 $City::MayorJobID = 26;
-$City::CivilianJobID = 26;
+$City::CivilianJobID = 1;
 
 $City::TyJobsPath = "Add-Ons/Support_CityRPG_TyJobs/jobs";
 
