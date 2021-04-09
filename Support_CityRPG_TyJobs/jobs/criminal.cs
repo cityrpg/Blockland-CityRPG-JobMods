@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Criminal";
+$CityRPG::jobs::track = "Criminal";
 $CityRPG::jobs::initialInvestment = 50;
 $CityRPG::jobs::pay = 40;
 $CityRPG::jobs::tools = "CityRPGPicklockItem";

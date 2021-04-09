@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Laborer";
+$CityRPG::jobs::track = "Labor";
 $CityRPG::jobs::initialInvestment = 50;
 $CityRPG::jobs::pay = 0;
 $CityRPG::jobs::tools = "CityRPGPickaxeItem CityRPGLumberjackItem";

@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Arms Dealer";
+$CityRPG::jobs::track = "Business";
 $CityRPG::jobs::initialInvestment = 150;
 $CityRPG::jobs::pay = 30;
 $CityRPG::jobs::tools = "";

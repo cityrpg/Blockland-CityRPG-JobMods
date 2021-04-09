@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Policeman";
+$CityRPG::jobs::track = "Police";
 $CityRPG::jobs::initialInvestment = 25;
 $CityRPG::jobs::pay = 50;
 $CityRPG::jobs::tools = "CityRPGBatonItem grappleRope gunItem";

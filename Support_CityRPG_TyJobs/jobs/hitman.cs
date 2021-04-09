@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Hitman";
+$CityRPG::jobs::track = "Bounty Hunter";
 $CityRPG::jobs::initialInvestment = 5000;
 $CityRPG::jobs::pay = 250;
 $CityRPG::jobs::tools = "CityRPGLBItem akimboGunItem";

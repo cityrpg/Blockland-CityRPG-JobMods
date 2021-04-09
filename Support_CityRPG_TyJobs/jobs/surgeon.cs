@@ -5,6 +5,7 @@
 // ============================================================
 
 $CityRPG::jobs::name = "Surgeon";
+$CityRPG::jobs::track = "Medical";
 $CityRPG::jobs::initialInvestment = 100;
 $CityRPG::jobs::pay = 280;
 $CityRPG::jobs::tools = "PillItem PillItem TF2MedigunItem TF2UbersawItem";
