@@ -1,12 +1,12 @@
-// WARNING: This jobs list is compatible with CityRPG 4 ALPHA 1 ONLY.
+// WARNING: This jobs list is compatible with CityRPG 4 0.3.0 ONLY.
 // As CityRPG 4 is still in alpha, future versions are not guaranteed to be compatible.
 
 // Config changes
 $City::EducationCap	= 6;
 $City::EducationReincarnateLevel = 8;
-$City::AdminJobID = 13;
-$City::MayorJobID = 14;
-$City::CivilianJobID = 1;
+$City::AdminJobID = "Admin";
+$City::MayorJobID = "GovMayor";
+$City::CivilianJobID = "StarterCivilian";
 
 $City::JobsPath = "Add-Ons/Support_CityRPG_JobMod_Template/jobs";
 
@@ -18,22 +18,21 @@ package CityRPG_JobMod
 		$City::DefaultJobs = 0;
 
 		echo("Loading custom jobs...");
-		// NOTE: Order is incredibly important. Jobs are referenced by ID, which is determined by order.
-		// Mixing up the order of these professions will cause save data to reference the wrong job.
-		%so.addJobFromFile($City::JobsPath @ "/civilian.cs");               // 1
-		%so.addJobFromFile($City::JobsPath @ "/miner.cs");                  // 2
-		%so.addJobFromFile($City::JobsPath @ "/lumberjack.cs");             // 3
-		%so.addJobFromFile($City::JobsPath @ "/grocer.cs");                 // 4
-		%so.addJobFromFile($City::JobsPath @ "/armsdealer.cs");             // 5
-		%so.addJobFromFile($City::JobsPath @ "/shopowner.cs");				// 6
-		%so.addJobFromFile($City::JobsPath @ "/shopceo.cs");          		// 7
-		%so.addJobFromFile($City::JobsPath @ "/bountyhunter.cs");           // 8
-		%so.addJobFromFile($City::JobsPath @ "/bountyhunterpro.cs");        // 9
-		%so.addJobFromFile($City::JobsPath @ "/policeasst.cs");             // 10
-		%so.addJobFromFile($City::JobsPath @ "/policeman.cs");              // 11
-		%so.addJobFromFile($City::JobsPath @ "/policechief.cs");            // 12
-		%so.addJobFromFile($City::JobsPath @ "/councilmember.cs");          // 13
-		%so.addJobFromFile($City::JobsPath @ "/mayor.cs");		  			// 14
+
+		%so.createJob($City::JobsPath @ "/StarterCivilian.cs");
+		%so.createJob($City::JobsPath @ "/LaborMiner.cs");
+		%so.createJob($City::JobsPath @ "/LaborLumberjack.cs");
+		%so.createJob($City::JobsPath @ "/BusGrocer.cs");
+		%so.createJob($City::JobsPath @ "/BusArmsDealer.cs");
+		%so.createJob($City::JobsPath @ "/BusOwner.cs");
+		%so.createJob($City::JobsPath @ "/BusCEO.cs");
+		%so.createJob($City::JobsPath @ "/BountyHunter.cs");
+		%so.createJob($City::JobsPath @ "/BountyVigilante.cs");
+		%so.createJob($City::JobsPath @ "/PdAsst.cs");
+		%so.createJob($City::JobsPath @ "/PdOfficer.cs");
+		%so.createJob($City::JobsPath @ "/PdChief.cs");
+		%so.createJob($City::JobsPath @ "/Admin.cs");
+		%so.createJob($City::JobsPath @ "/GovMayor.cs");
 	}
 };
 

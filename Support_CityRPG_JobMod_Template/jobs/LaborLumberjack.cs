@@ -1,7 +1,8 @@
-$CityRPG::jobs::name = "Miner";
+$CityRPG::jobs::name = "Lumberjack";
+$CityRPG::jobs::track = "Labor";
 $CityRPG::jobs::initialInvestment = 25;
 $CityRPG::jobs::pay = 25;
-$CityRPG::jobs::tools = "CityRPGPickaxeItem";
+$CityRPG::jobs::tools = "CityRPGLumberjackItem";
 $CityRPG::jobs::datablock = Player9SlotPlayer;
 $CityRPG::jobs::education = 0;
 
@@ -20,7 +21,6 @@ $CityRPG::jobs::claimer = false;
 
 $CityRPG::jobs::labor = true;
 
-$CityRPG::jobs::tmHexColor = "802A2A";
-$CityRPG::jobs::helpline = "\c6Self-employed miners that earn profit directly by selling ores.";
+$CityRPG::jobs::helpline = "\c6Self-employed lumberjacks that earn profit directly by selling lumber.";
 
-$CityRPG::jobs::outfit = "none none none none whitet blackShirt skin bluePants blackShoes default Mod-Prisoner";
+$CityRPG::jobs::outfit = "none none none none greenShirt blueShirt skin blackPants brownShoes ChefSmiley hoodie ";

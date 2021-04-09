@@ -1,10 +1,12 @@
 $CityRPG::jobs::name = "Mayor";
+$CityRPG::jobs::track = "Government";
+$CityRPG::jobs::title = "Mayor";
 $CityRPG::jobs::initialInvestment = 0;
 $CityRPG::jobs::pay = 150;
 $CityRPG::jobs::tools = "";
 $CityRPG::jobs::datablock = Player9SlotPlayer;
 $CityRPG::jobs::education = 0;
-$CityRPG::jobs::hostonly = true;
+$CityRPG::jobs::adminonly = 1;
 
 $CityRPG::jobs::sellItems = true;
 $CityRPG::jobs::sellFood = true;
@@ -23,7 +25,6 @@ $CityRPG::jobs::claimer = true;
 
 $CityRPG::jobs::labor = false;
 
-$CityRPG::jobs::tmHexColor = "0000CC";
 $CityRPG::jobs::helpline = "\c6The mayor of the city. Makes a handsome salary and governs the people.";
 $CityRPG::jobs::flavortext = "Thaaaaaat's politics!";
 
