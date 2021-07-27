@@ -1,4 +1,4 @@
-// WARNING: This jobs list is compatible with CityRPG 4 0.3.0 ONLY.
+// WARNING: This jobs list is compatible with CityRPG 4 0.3.x ONLY.
 // As CityRPG 4 is still in alpha, future versions are not guaranteed to be compatible.
 
 // Config changes
