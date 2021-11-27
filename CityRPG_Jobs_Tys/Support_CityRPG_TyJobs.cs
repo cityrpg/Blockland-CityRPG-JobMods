@@ -9,7 +9,7 @@ $CityRPG::EducationStr[0] = "High School Diploma";
 // Remove the education string for lvl 8
 $CityRPG::EducationStr[8] = "";
 
-$City::TyJobsPath = "Add-Ons/Support_CityRPG_TyJobs/jobs";
+$City::TyJobsPath = "Add-Ons/CityRPG_Jobs_Tys/jobs";
 
 package CityRPG_TyJobs
 {

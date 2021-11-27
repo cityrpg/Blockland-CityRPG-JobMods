@@ -8,7 +8,7 @@ $City::AdminJobID = "Admin";
 $City::MayorJobID = "GovMayor";
 $City::CivilianJobID = "StarterCivilian";
 
-$City::JobsPath = "Add-Ons/Support_CityRPG_JobMod_Template/jobs";
+$City::JobsPath = "Add-Ons/CityRPG_Jobs_Template/jobs";
 
 package CityRPG_JobMod
 {
