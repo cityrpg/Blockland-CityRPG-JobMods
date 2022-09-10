@@ -8,6 +8,7 @@ $City::AdminJobID = "Admin";
 $City::MayorJobID = "GovMayor";
 $City::CivilianJobID = "StarterCivilian";
 
+// ----> Change this when renaming the add-on! <----
 $City::JobsPath = "Add-Ons/CityRPG_Jobs_Template/jobs";
 
 package CityRPG_JobMod
