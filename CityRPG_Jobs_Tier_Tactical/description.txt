@@ -1,3 +1,0 @@
-Title: CityRPG 4 Tier+Tactical Jobs
-Author: Lake
-Replaces the CityRPG 4 police job spawns with Tier+Tactical pistols. (Weapon_Package_Tier1)
